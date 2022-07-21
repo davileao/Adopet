@@ -14,10 +14,10 @@ body {
     background-repeat: no-repeat;
     background-position: top left;
     background-size: 100%;
-    display:flex; 
-    flex-direction:column; 
-    height:100vh; 
-    margin:0; 
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
 }
 
 
@@ -113,58 +113,29 @@ body {
     }
 
 
-  .cadastro-texto {
-    width: 500px;
-    margin-bottom: 50px;
-  }
+    .cadastro-texto {
+        width: 500px;
+        margin-bottom: 50px;
+    }
 
-  .animais__cards__geral::after {
-    content: "";
-    flex: 0 1 44%;
-}
+    .animais__cards__geral::after {
+        content: "";
+        flex: 0 1 44%;
+    }
 
-.botao-usuario__img{
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    left: 80%;
-    top: 50px;
-}
+    .botao-usuario__img {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        left: 80%;
+        top: 50px;
+    }
 
 }
 
 @media screen and (min-width: 1024px) {
-    @media screen and (min-width: 1024px) {
-        body {
-            background-size: 40%
-        }
-    
-    
-        .botao-home {
-            margin-left: -10px;
-        }
-    
-        .botao-mensagem {
-            margin-left: -60px;
-        }
-    
-    
-        .login{
-            margin-top: -10px;
-            margin-bottom: 50px;
-        }
-    
-        .cadastro-texto {
-            margin-bottom: 10px;
-        }
-    
-        .botao {
-            width: 180px !important; 
-        }
-    
-        .cadastro-botao {
-            margin-bottom: 100px;
-        }
+    body {
+        background-size: 40%
     }
 
 
@@ -176,7 +147,41 @@ body {
         margin-left: -60px;
     }
 
-    .animais__titulo{
-        width: 420px ;
+
+    .login {
+        margin-top: -10px;
+        margin-bottom: 50px;
+    }
+
+    .cadastro-texto {
+        margin-bottom: 10px;
+    }
+
+    .botao {
+        width: 180px !important;
+    }
+
+    .cadastro-botao {
+        margin-bottom: 100px;
+    }
+}
+
+
+.botao-home {
+    margin-left: -10px;
+}
+
+.botao-mensagem {
+    margin-left: -60px;
+}
+
+.animais__titulo {
+    width: 420px;
+}
+
+@media screen and (min-width: 1440px) {
+    .animais__cards__geral {
+        width: 60%;
+
     }
 }
