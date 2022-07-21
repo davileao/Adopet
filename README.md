@@ -17,10 +17,6 @@ Para isso eles estão solicitando a nossa ajuda como desenvolvedores para criar 
 É muito importante que o site seja responsivo para dar aos clientes a facilidade de comprar através de dispositivos mobiles.
 
 
-### Deploy
-
-https://davileao.github.io/Adopet/
-
 ## Author
 
 davilea@gmail.com
