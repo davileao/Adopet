@@ -1,0 +1,203 @@
+.botao-usuario {
+  display: none;
+}
+
+
+.mensagem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    height: 100vh;
+
+}
+
+.botao-mensagem {
+ display: none;
+}
+
+.mensagem__caixa {
+    background-color: #f7f7f7;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mensagem__titulo {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #3772FF;
+    width: 226px;
+    height: 60px;
+    left: 67px;
+    top: 168px;
+    margin-bottom: 30px;
+}
+
+.mensagem__formulario {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #BCBCBC;
+    margin-bottom: 32px;
+}
+
+.label {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #3772FF;
+    margin-top: 40px;
+    margin-bottom: 5px;
+
+}
+
+::placeholder {
+    color: #bcbcbc;
+    opacity: 1;
+}
+
+
+.form {
+    width: 280px;
+    height: 40px;
+    background: #FFF;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    border: none;
+    text-align: center;
+    color: #BCBCBC;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+textarea {
+    resize: none;
+
+}
+
+.mensagem__caixa {
+    width: 312px;
+    background: #F7F7F7;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    padding-bottom: 40px;
+
+}
+
+.mensagem__caixaDeTexto {
+    width: 280px;
+    height: 172px;
+    mix-blend-mode: normal;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    color: #BCBCBC;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    body {
+        background-image: url(../imgs/forma2.svg), url(../imgs/forma1.svg);
+        background-repeat: no-repeat;
+        background-position:  center right, top left;
+        background-size:  15%, 70%;
+    
+    }
+
+    .botao-home {
+      margin-left: -10px;
+  }
+
+  .botao-usuario {
+    display: block;
+  }
+
+  .botao-mensagem {
+    display: block;
+  }
+
+  .logo-responsivo {
+    display: block;
+  }
+
+ .rodape {
+  margin-top: 100px;
+ }
+  .cadastro-texto {
+    width: 500px;
+    margin-bottom: 50px;
+  }
+
+  .mensagem__titulo {
+    width: 524px;
+    margin-top: 90px;
+  }
+
+  .mensagem__caixa{
+    width: 524px;
+
+  }
+
+  .mensagem__formulario {
+    width: 524px;
+    align-items: center;
+
+  }
+
+  .label {
+    width: 524px;
+   margin-left: 40px;
+  }
+    .form {
+        width: 491px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+      background-size:  7%, 40%;
+  
+  }
+
+.logo-responsivo {
+  display: block;
+}
+
+
+.mensagem__titulo {
+  width: 524px;
+  margin-top: 90px;
+
+}
+
+
+}
+

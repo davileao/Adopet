@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopet</title>
+    <link rel="shortcut icon" href="./imgs/favicon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=MedievalSharp&family=Poppins:wght@400;600&family=Roboto:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/reset.css">
+    <link rel="stylesheet" href="./assets/cabecalho.css">
+    <link rel="stylesheet" href="./assets/botao.css">
+    <link rel="stylesheet" href="./assets/rodape.css">
+    <link rel="stylesheet" href="./assets/pets.css">
+    <link rel="stylesheet" href="./assets/mensagem.css">
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho-icones">
+            <div class="logo-responsivo"><img src="./imgs/logo.svg" alt="" srcset=""></div>
+            <a href="index.html"><img src="./imgs/casa.svg" alt="" class="botao-home"></a>
+            <a href="mensagem.html"><img src="./imgs/mensagens.svg" alt="" class="botao-mensagem"></a>
+        </nav>
+        <div class="botao-usuario"><a href="login.html"><img src="./imgs/usuario.png" alt=""
+                    class="botao-usuario__img"></a></div>
+    </header>
+
+    <main class="mensagem">
+        <h2 class="mensagem__titulo">Envie uma mensagem para a pessoa ou instituição que está cuidado do animal:</h2>
+        
+        <div class="mensagem__caixa">
+            <form action="" class="mensagem__formulario">
+                <label for="" class="mensagem__nome label">Nome</label>
+                <input type="text" placeholder="Insira seu nome completo" class="mensagem__form___email form">
+                <label for="" class="mensagem__telefone label">Telefone</label>
+                <input type="tel"placeholder="Insira seu telefone e/ou whatsapp" class="mensagem__form___nome form">
+                <label for="" class="mensagem__animal label">Nome do animal</label>
+                <input type="text" placeholder="Por qual animal você se interessou?"class="mensagem___senha___password form">
+                <label for="" class="mensagem__mensagem label">Mensagem</label>
+                <textarea name="input-message" cols="30" rows="10" placeholder="Escreva sua mensagem." class="mensagem__caixaDeTexto"></textarea>
+            
+            </form>
+            <button class="enviar__botao botao">Enviar</button> 
+
+        </div>
+    
+    </main>
+
+    <footer class="rodape"><span class="rodape-texto">2022 - Desenvolvido por Davi Leao</span></footer>
+
+
+</body>
+
+</html>

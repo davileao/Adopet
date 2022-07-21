@@ -1,0 +1,182 @@
+:root {
+    --azul: #3772FF;
+    --verde: #36D6AD;
+    --coral: #FC7071;
+    --creme: #FCF0E3;
+    --cinza-escuro: #737380;
+    --cinza-claro: #BCBCBC;
+    --cinza-claro-fundo: #F6F6F6;
+}
+
+
+body {
+    background-image: url(../imgs/forma1.svg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 100%;
+    display:flex; 
+    flex-direction:column; 
+    height:100vh; 
+    margin:0; 
+}
+
+
+.animais {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.animais__titulo {
+    color: #3772FF;
+    font-family: 'Poppins';
+    line-height: 20px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 16px;
+    margin-top: 52px;
+    width: 226px;
+    height: 40px;
+    text-align: center;
+}
+
+.animais__cards__geral {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.animais__cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cinza-claro-fundo);
+    margin: 10px;
+    width: 360px;
+    height: 200px;
+    gap: 20px;
+    z-index: 1;
+}
+
+
+
+.animais__texto {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #737380;
+    margin-bottom: 30px;
+}
+
+.animais__cidade {
+    margin-top: 30px;
+}
+
+.animais__texto h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #3772FF;
+    margin-bottom: 8px;
+}
+
+.animais__info {
+    margin-bottom: 30px;
+
+}
+
+.animais__responsavel {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 10px;
+}
+
+.animais__responsavel img {
+    width: 15px;
+    height: 15px;
+}
+
+
+@media screen and (min-width: 768px) {
+    body {
+        background-size: 55%;
+    }
+
+
+  .cadastro-texto {
+    width: 500px;
+    margin-bottom: 50px;
+  }
+
+  .animais__cards__geral::after {
+    content: "";
+    flex: 0 1 44%;
+}
+
+.botao-usuario__img{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 80%;
+    top: 50px;
+}
+
+}
+
+@media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1024px) {
+        body {
+            background-size: 40%
+        }
+    
+    
+        .botao-home {
+            margin-left: -10px;
+        }
+    
+        .botao-mensagem {
+            margin-left: -60px;
+        }
+    
+    
+        .login{
+            margin-top: -10px;
+            margin-bottom: 50px;
+        }
+    
+        .cadastro-texto {
+            margin-bottom: 10px;
+        }
+    
+        .botao {
+            width: 180px !important; 
+        }
+    
+        .cadastro-botao {
+            margin-bottom: 100px;
+        }
+    }
+
+
+    .botao-home {
+        margin-left: -10px;
+    }
+
+    .botao-mensagem {
+        margin-left: -60px;
+    }
+
+    .animais__titulo{
+        width: 420px ;
+    }
+}

@@ -1,0 +1,122 @@
+body {
+  background-color: #3772FF;
+  background-image: url(../imgs/forma1.svg), url(../imgs/forma2.svg);
+  background-repeat: no-repeat;
+  background-position: top left, center right;
+  background-size: 100%, 20%;
+}
+
+.principal {
+  grid-area: main;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30%;
+  margin-bottom: 12%;
+
+}
+
+.principal-logo {
+  width: 200px;
+
+}
+
+.principal-titulo {
+  font-family: 'IBM Plex Sans';
+  color: #FFF;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 90px;
+}
+
+.principal-texto {
+  font-family: 'Poppins';
+  color: #FFF;
+  font-size: 16px;
+  line-height: 24px;
+  width: 60%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.botao {
+  color: #FFF;
+  background-color: #FC7071;
+  border-radius: 6px;
+  width: 180px;
+  height: 40px;
+  text-align: center;
+  font-family: 'Poppins';
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+
+.imagem-cachorrogato {
+  margin-top: 10px;
+  margin-bottom: -30px;
+  z-index: -1;
+}
+
+.imagem-cachorrogato-img {
+  width: 250px;
+  height: 312px;
+}
+
+
+@media screen and (min-width: 768px) {
+  body {
+    background-size: 60%, 15%;
+  }
+
+
+  .rodape {
+    position: absolute;
+    bottom: 0px;
+  }
+
+  .imagem-cachorrogato {
+    margin-top: 200px;
+  }
+
+  .principal-texto {
+    width: 344px;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-size: 40%, 100px;
+    height: 80vh;
+  
+  }
+
+  .botao-home {
+    margin-left: -10px;
+  }
+
+  .botao-mensagem {
+    margin-left: -60px;
+  }
+
+  .principal {
+    margin-top: -4%;
+  
+  }
+
+  .imagem-cachorrogato {
+    margin-top: 40px;
+  }
+
+  .principal-texto {
+    width: 400px;
+  }
+
+  .principal-texto {
+    margin-bottom: 10px;
+  }
+}

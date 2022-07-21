@@ -1,0 +1,16 @@
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: #36D6AD;
+    width: 100%;
+    min-height: 60px;
+}
+
+.rodape-texto {
+    color: #FFF;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+}
