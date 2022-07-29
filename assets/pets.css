@@ -127,9 +127,10 @@ body {
         position: absolute;
         width: 40px;
         height: 40px;
-        left: 80%;
+        left: 60%;
         top: 50px;
     }
+
 
 }
 
@@ -167,17 +168,6 @@ body {
 }
 
 
-.botao-home {
-    margin-left: -10px;
-}
-
-.botao-mensagem {
-    margin-left: -60px;
-}
-
-.animais__titulo {
-    width: 420px;
-}
 
 @media screen and (min-width: 1440px) {
     .animais__cards__geral {
